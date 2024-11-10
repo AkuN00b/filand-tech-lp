@@ -739,7 +739,7 @@
         var phoneNumber = '6288809133573';
         
         // Gunakan WhatsApp Web URL untuk semua perangkat
-        var whatsappUrl = `https://web.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
+        var whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
 
         // Buka URL dalam tab baru
         window.open(whatsappUrl, '_blank');
